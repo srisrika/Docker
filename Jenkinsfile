@@ -1,4 +1,4 @@
-pipeline {
+pipeline_new {
 
   environment {
     registry = "10.138.0.3:5001/mgsgoms/flask"
