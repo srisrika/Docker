@@ -48,7 +48,7 @@ pipeline {
    }
    stage('Build mysql image') {
      steps{
-       sh 'docker build -t "sarika043/mysql:$BUILD_NUMBER"  "$WORKSPACE"/mysql'
+       sh 'docker build -t "ssrika043/mysql:$BUILD_NUMBER"  "$WORKSPACE"/mysql'
         sh 'docker push "ssrika043/mysql:$BUILD_NUMBER"'
         }
       }
